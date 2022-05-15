@@ -1,0 +1,50 @@
+nav ul a {
+    color:#023364;
+    }
+
+nav {
+    background-color: #fafafa;
+    height: 85px;
+}
+#logo-container img{
+    width: 80px;
+}
+.sidenav-trigger{
+    color:aqua;
+}
+.parallax-container{
+    min-height: 500px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax {
+    filter: grayscale(70%);
+}
+.icon-block{
+    padding: 0 15px;
+}
+    
+.icon-block .material-icons{
+    font-size: inherit;
+}
+.material-icons{
+    color: #20815c;
+}
+p {
+    line-height: 2rem;
+}
+
+
+.offer{
+    font-size: 4vh;
+    font-weight: 100;
+}
+.btn-comprar{
+    color: blue;
+}
+.p-img{
+    width: 20;
+    height: 400;
+    display: flex;
+}
