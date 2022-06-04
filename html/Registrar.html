@@ -54,35 +54,24 @@
     <div class="row">
     <div class="input-field col s12 m6 l12">
         <i class="material-icons prefix">account_box</i>
-    <input id="telefono" type="text" class="validate">
+    <input id="correo" type="text" class="validate">
     <label for="telefono">Correo electrónico</label>
     </div>
     </div>
     <div class="row">
         <div class="input-field col s12 m6 l12">
             <i class="material-icons prefix">lock</i>
-        <input id="telefono" type="text" class="validate">
+        <input id="contraseña" type="text" class="validate">
         <label for="telefono">Contraseña</label>
         </div>
         </div>
     </form>
     <div class="row center-align">
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Registrate</a>
-    </div>
+        <input type="submit" onclick=" return enviarFormulario()" value="enviar">
       </button>
     </div>
+    <div id='error'></div>
 
-
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Registrarse</h4>
-      <p>Usuario registrado</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
-    </div>
-  </div>
           
 </section>
 <!-- /Registro -->  

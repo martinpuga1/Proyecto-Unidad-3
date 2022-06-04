@@ -14,7 +14,7 @@
 
     <nav>
         <div class="nav-wrapper container">
-        <a id="logo-container" class="brand-logo">ENSAMBLE PC'S MARTIN</a>
+        <a id="logo-container" class="brand-logo">ENSAMBLE PC'S</a>
         <a href="#" data-target="mobile-demo"
         class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
@@ -47,23 +47,23 @@
     <div class="row">
     <div class="input-field col s12 m6 l12">
         <i class="material-icons prefix">account_box</i>
-    <input id="first_name" type="text" class="validate">
+    <input id="correo" type="text" class="validate">
     <label for="first_name">Correo electrónico</label>
     </div>
     </div>
     <div class="row">
     <div class="input-field col s12 m6 l12">
         <i class="material-icons prefix">lock</i>
-    <input id="telefono" type="text" class="validate">
+    <input id="contraseña" type="text" class="validate">
     <label for="telefono">Contraseña</label>
     </div>
     </div>
     </form>
     <div class="row center-align">
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Login</a>
-    </div>
+        <input type="submit" onclick=" return enviarFormulario()" value="enviar">
       </button>
     </div>
+    <div id='error'></div>
 
 
 <!-- Modal Structure -->
